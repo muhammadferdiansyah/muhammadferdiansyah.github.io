@@ -1,0 +1,18 @@
+{
+  "name": "Signup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-pro": "cross-env NODE_ENV=production tailwindcss -i src/styles.css -o dist/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.2",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
